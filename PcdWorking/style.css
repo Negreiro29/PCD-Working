@@ -1,0 +1,221 @@
+/*
+*
+*@author Vinicius Negreiro
+*@Version 0.1
+*/
+
+/* =================== layout ================= */
+
+a{
+	text-decoration-line: none;
+}
+
+div{
+	display: block;
+}
+
+html, body{
+	height: 100%;
+	overflow: auto;
+}
+
+.logo{
+	max-height:150px; 
+	max-width: 100px;
+	width: auto;
+	height: auto;
+}
+
+.top-bar {
+	display: block;
+	position: relative;
+	background: #003399;
+	/*text-align: left;*/
+	align-items: center;
+	width: 100vw;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.top-bar ul{
+	position: static;
+	display: inline-block;
+}
+
+.top-bar li{
+	position: relative;
+	display: inline-block;
+	padding-right: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+.top-menu li a{
+	color: white;
+}
+
+.acess-menu{
+	float: right;
+	margin-top: 35px;
+}
+
+.acess-menu li a{
+	color: white;
+	padding: 2px 3px;
+}
+
+.acess-menu img{
+	position: relative;
+	max-width: 30px;
+	max-height: 30px;
+	width: auto;
+	height: auto;
+}
+
+.bi{
+	width: 16px;
+	height: 16px;
+}
+
+/*Main*/
+.conteudo{
+	display: table;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.col-md-8{
+	max-width: 66.6667%;
+	flex: 0 0 66.6667%;  
+}
+
+.align-items-center{
+	align-items: center;
+}
+
+#blocos-vaga{
+	display: block;
+	margin: 10px 15px;
+	padding: 10px 15px; 
+	/*border: 2px solid #3e92cc;*/
+	border: 2px solid #003399;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+#info-vaga{
+	text-align: left;
+}
+
+#info-vaga p{
+	margin-top: 0;
+	line-height: 0.7;
+}
+
+#btn-vaga{
+	text-align: center;
+	border-radius: 10px;
+	/*margin-top: 3%;
+	margin-right: -20%;*/
+}
+
+#blocos-info{
+	display: block;
+	border: 2px solid #003399;
+	border-radius: 10px;
+	margin: 10px auto;
+	padding: 10px 15px;
+	text-align: center;
+	max-width: 800px;
+}
+
+#blocos-info a{
+	color: black;
+}
+
+#blocos-info img{
+	max-height: 550px;
+	max-width: 461px;
+	width: auto;
+	height: auto;
+}
+
+#texto-info{
+	text-align: left;
+}
+
+#saudacoes{
+	text-align: center;
+}
+
+/*Login*/
+#blocos-login{
+	display: block;
+	margin: 10px auto;
+	padding: 10px 15px; 
+	/*border: 2px solid #3e92cc;*/
+	border: 2px solid #003399;
+	background: rgba(255, 255, 255, 0.3);
+	max-width: auto;
+	width: 500px;
+	border-radius: 10px;
+}
+
+/*Cadastro*/
+#blocos-cadastro{
+	display: block;
+	margin: 10px auto;
+	padding: 10px 15px;
+	border: 2px solid #003399;
+	background: rgba(255, 255, 255, 0.3);
+	width: 800px;
+	border-radius: 10px; 
+}
+
+/*Perfil*/
+/*#blocos-perfil{
+	display: block;
+	border: 2px solid #003399;
+	border-radius: 10px;
+	margin: 10px auto;
+	padding: 10px 15px;
+	text-align: center;
+	max-width: 800px;
+}*/
+
+/*Rodapé*/
+footer{
+	background: #003399;
+	text-decoration-line: none;
+	display: block;
+	width: 100vw;
+}
+
+footer h6{
+	color: white;
+	padding-top: 10px;
+}
+
+.rodape ul{
+	display: inline;
+}
+
+.rodape li a{
+	position: relative; 
+	text-decoration-line: none;
+	color: white;
+}
+
+.rodape li{
+	display: block;
+}
+
+#outros-links{
+	text-align: left;
+}
+
+#direitos{
+	color: white;
+	text-align: center
+}
